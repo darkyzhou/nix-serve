@@ -1,7 +1,7 @@
 {
   description = "A utility for sharing a Nix store as a binary cache";
 
-  inputs.nixpkgs.url = "nixpkgs/nixos-24.05";
+  inputs.nixpkgs.url = "github:loongson-community/nixpkgs/loong-master";
 
   outputs = { self, nixpkgs }:
 
